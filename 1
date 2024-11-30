@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Магазин</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home" class="active">Головна</a></li>
+                    <li><a href="#products">Продукти</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                    <li>
+                        <select id="language-switcher">
+                            <option value="uk">Українська</option>
+                            <option value="en">English</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Ласкаво просимо до нашого інтернет-магазину!</h2>
+            <p>Обирайте найкращі товари для себе!</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Наші продукти</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="product1.jpg" alt="Продукт 1">
+                    <h3>Товар 1</h3>
+                    <p>Ціна: 500 грн</p>
+                    <button class="buy-btn">Купити</button>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Продукт 2">
+                    <h3>Товар 2</h3>
+                    <p>Ціна: 800 грн</p>
+                    <button class="buy-btn">Купити</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакти</h2>
+            <p>Телефон: +380 (00) 123-45-67</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Інтернет-магазин. Всі права захищено.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
